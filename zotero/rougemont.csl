@@ -562,11 +562,10 @@
       </choose>
     </layout>
   </citation>
-  <bibliography subsequent-author-substitute="&#8212;&#8212;&#8212;" entry-spacing="0" hanging-indent="true">
+  <bibliography entry-spacing="2" hanging-indent="true">
     <sort>
-      <key variable="call-number"/>
-      <key macro="contributors-sort"/>
       <key variable="issued"/>
+      <key macro="contributors-sort"/>
       <key variable="title"/>
       <!--
       <key variable="issue"/>
@@ -575,6 +574,7 @@
     </sort>
     <layout>
       <group delimiter=", " suffix=".">
+        <date form="text" variable="issued" prefix="[" suffix="] "/>
         <text macro="contributors"/>
         <choose>
           <if type="chapter article-journal article-magazine article-newspaper broadcast entry-encyclopedia entry-dictionary paper-conference post post-weblog review-book song interview speech motion_picture graphic" match="any">
@@ -621,7 +621,6 @@
           </else>
         </choose>
       </group>
-      <text prefix=" " macro="online"/>
     </layout>
   </bibliography>
 </style>
