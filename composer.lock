@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb46f16af01169b1c9ad5736a99d26e1",
+    "content-hash": "77cf99b125d56b999b9c23549abe5618",
     "packages": [
         {
             "name": "citation-style-language/locales",
-            "version": "v0.0.25",
+            "version": "v0.0.104",
             "source": {
                 "type": "git",
                 "url": "https://github.com/citation-style-language/locales.git",
-                "reference": "96d704de2fc7b930ae4a0ec4686a7143bb4a0d33"
+                "reference": "a89adece41013402236e2c9020972d7e931fbab8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/citation-style-language/locales/zipball/96d704de2fc7b930ae4a0ec4686a7143bb4a0d33",
-                "reference": "96d704de2fc7b930ae4a0ec4686a7143bb4a0d33",
+                "url": "https://api.github.com/repos/citation-style-language/locales/zipball/a89adece41013402236e2c9020972d7e931fbab8",
+                "reference": "a89adece41013402236e2c9020972d7e931fbab8",
                 "shasum": ""
             },
             "type": "library",
@@ -40,7 +40,7 @@
             "homepage": "http://citationstyles.org/",
             "support": {
                 "issues": "https://github.com/citation-style-language/locales/issues",
-                "source": "https://github.com/citation-style-language/locales/tree/v0.0.25"
+                "source": "https://github.com/citation-style-language/locales/tree/v0.0.104"
             },
             "funding": [
                 {
@@ -48,20 +48,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-21T14:12:58+00:00"
+            "time": "2026-09-10T20:50:37+00:00"
         },
         {
             "name": "citation-style-language/styles",
-            "version": "v0.0.569",
+            "version": "v0.0.772",
             "source": {
                 "type": "git",
                 "url": "https://github.com/citation-style-language/styles.git",
-                "reference": "6b7b611908b20c91f34110d1c9489fb3278e0ef5"
+                "reference": "5c1e6ba17b0c0127bf737bcf36355982ecbb6ff0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/citation-style-language/styles/zipball/6b7b611908b20c91f34110d1c9489fb3278e0ef5",
-                "reference": "6b7b611908b20c91f34110d1c9489fb3278e0ef5",
+                "url": "https://api.github.com/repos/citation-style-language/styles/zipball/5c1e6ba17b0c0127bf737bcf36355982ecbb6ff0",
+                "reference": "5c1e6ba17b0c0127bf737bcf36355982ecbb6ff0",
                 "shasum": ""
             },
             "type": "library",
@@ -79,7 +79,7 @@
             "homepage": "http://citationstyles.org/",
             "support": {
                 "issues": "https://github.com/citation-style-language/styles/issues",
-                "source": "https://github.com/citation-style-language/styles/tree/v0.0.569"
+                "source": "https://github.com/citation-style-language/styles/tree/v0.0.772"
             },
             "funding": [
                 {
@@ -87,20 +87,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-29T19:26:09+00:00"
+            "time": "2025-08-22T17:23:31+00:00"
         },
         {
             "name": "erusev/parsedown",
-            "version": "dev-master",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "c9dc49f68f7bd14e5aa107d86a08ce59203f02ee"
+                "reference": "96baaad00f71ba04d76e45b4620f54d3beabd6f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/c9dc49f68f7bd14e5aa107d86a08ce59203f02ee",
-                "reference": "c9dc49f68f7bd14e5aa107d86a08ce59203f02ee",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/96baaad00f71ba04d76e45b4620f54d3beabd6f7",
+                "reference": "96baaad00f71ba04d76e45b4620f54d3beabd6f7",
                 "shasum": ""
             },
             "require": {
@@ -110,7 +110,6 @@
             "require-dev": {
                 "phpunit/phpunit": "^7.5|^8.5|^9.6"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -136,9 +135,15 @@
             ],
             "support": {
                 "issues": "https://github.com/erusev/parsedown/issues",
-                "source": "https://github.com/erusev/parsedown/tree/master"
+                "source": "https://github.com/erusev/parsedown/tree/1.8.0"
             },
-            "time": "2024-12-01T16:36:17+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/erusev",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-02-16T11:41:01+00:00"
         },
         {
             "name": "erusev/parsedown-extra",
@@ -146,23 +151,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown-extra.git",
-                "reference": "acebd175967ac1224dc710ab6082e5a28c202c85"
+                "reference": "cf4dc29794d22ab441fddd2b336b5c54f7ae2e2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/acebd175967ac1224dc710ab6082e5a28c202c85",
-                "reference": "acebd175967ac1224dc710ab6082e5a28c202c85",
+                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/cf4dc29794d22ab441fddd2b336b5c54f7ae2e2f",
+                "reference": "cf4dc29794d22ab441fddd2b336b5c54f7ae2e2f",
                 "shasum": ""
             },
             "require": {
-                "erusev/parsedown": "dev-master",
+                "erusev/parsedown": "^1.8",
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "ext-mbstring": "*",
-                "php": ">=7.1"
+                "php": ">=7.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "^7.5|^8.5|^9.6"
+                "phpunit/phpunit": "^8.5.52|^9.6.33"
             },
             "default-branch": true,
             "type": "library",
@@ -194,20 +199,26 @@
                 "issues": "https://github.com/erusev/parsedown-extra/issues",
                 "source": "https://github.com/erusev/parsedown-extra/tree/master"
             },
-            "time": "2024-11-03T08:25:00+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/erusev",
+                    "type": "github"
+                }
+            ],
+            "time": "2026-03-03T06:52:47+00:00"
         },
         {
             "name": "myclabs/php-enum",
-            "version": "1.8.4",
+            "version": "1.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/php-enum.git",
-                "reference": "a867478eae49c9f59ece437ae7f9506bfaa27483"
+                "reference": "e7be26966b7398204a234f8673fdad5ac6277802"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/a867478eae49c9f59ece437ae7f9506bfaa27483",
-                "reference": "a867478eae49c9f59ece437ae7f9506bfaa27483",
+                "url": "https://api.github.com/repos/myclabs/php-enum/zipball/e7be26966b7398204a234f8673fdad5ac6277802",
+                "reference": "e7be26966b7398204a234f8673fdad5ac6277802",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +228,7 @@
             "require-dev": {
                 "phpunit/phpunit": "^9.5",
                 "squizlabs/php_codesniffer": "1.*",
-                "vimeo/psalm": "^4.6.2"
+                "vimeo/psalm": "^4.6.2 || ^5.2"
             },
             "type": "library",
             "autoload": {
@@ -239,13 +250,13 @@
                 }
             ],
             "description": "PHP Enum implementation",
-            "homepage": "http://github.com/myclabs/php-enum",
+            "homepage": "https://github.com/myclabs/php-enum",
             "keywords": [
                 "enum"
             ],
             "support": {
                 "issues": "https://github.com/myclabs/php-enum/issues",
-                "source": "https://github.com/myclabs/php-enum/tree/1.8.4"
+                "source": "https://github.com/myclabs/php-enum/tree/1.8.5"
             },
             "funding": [
                 {
@@ -257,20 +268,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-04T09:53:51+00:00"
+            "time": "2025-01-14T11:49:03+00:00"
         },
         {
             "name": "oeuvres/kit",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/oeuvres/kit.git",
-                "reference": "bb208f2123bc08b12a61468a88c63de20d17a991"
+                "url": "https://github.com/oeuvres/teinte-kit.git",
+                "reference": "9e2daa88c7a8ff96817cf539a985b82823383a26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oeuvres/kit/zipball/bb208f2123bc08b12a61468a88c63de20d17a991",
-                "reference": "bb208f2123bc08b12a61468a88c63de20d17a991",
+                "url": "https://api.github.com/repos/oeuvres/teinte-kit/zipball/9e2daa88c7a8ff96817cf539a985b82823383a26",
+                "reference": "9e2daa88c7a8ff96817cf539a985b82823383a26",
                 "shasum": ""
             },
             "require": {
@@ -313,18 +324,18 @@
                 "xslt"
             ],
             "support": {
-                "issues": "https://github.com/oeuvres/kit/issues",
-                "source": "https://github.com/oeuvres/kit/tree/main"
+                "issues": "https://github.com/oeuvres/teinte-kit/issues",
+                "source": "https://github.com/oeuvres/teinte-kit/tree/main"
             },
-            "time": "2024-10-14T23:42:48+00:00"
+            "time": "2026-06-25T22:39:05+00:00"
         },
         {
             "name": "oeuvres/teinte",
             "version": "dev-main",
             "dist": {
                 "type": "path",
-                "url": "../teinte_php",
-                "reference": "4b414013d6707e5b473524ffdedc91cac66a2f6c"
+                "url": "../teinte-php",
+                "reference": "76b9aa8d4d257c7cb81326368e35f8f5df93c28d"
             },
             "require": {
                 "erusev/parsedown-extra": "dev-master",
@@ -372,8 +383,8 @@
             "version": "dev-main",
             "dist": {
                 "type": "path",
-                "url": "../teinte_xsl",
-                "reference": "2fceb6487f7c73cb82dcbc2244dd8c542e34021b"
+                "url": "../teinte-xsl",
+                "reference": "bd40743c6792ee69dd255031a7463c987125fdc2"
             },
             "type": "library",
             "autoload": {
@@ -452,7 +463,7 @@
             "dist": {
                 "type": "path",
                 "url": "../citeproc-php",
-                "reference": "bb76e77bf9ab6fb7fbafe845818a514d6770c08a"
+                "reference": "71cd99417b498c4aaa2b02838c1c7dddf3cb18e3"
             },
             "require": {
                 "citation-style-language/locales": "v0.0.*",
@@ -606,7 +617,7 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }

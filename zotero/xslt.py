@@ -53,13 +53,13 @@ def main():
             raise
         for entry in transform.error_log:
             print(f"{src}: {entry.message}", file=sys.stderr)
-        result.write_output(sys.stdout.buffer)
+        # result.write_output(sys.stdout.buffer)
         """
         dst = args.output / src.with_suffix(args.ext).name
         """
         dst = src
-        # result.write_output(dst)
-        # print(f"{src} -> {dst}")
+        result.write_output(dst)
+        print(f"{src} -> {dst}")
 
 
 if __name__ == "__main__":
